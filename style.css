@@ -1,0 +1,273 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: relative;
+    background-color: #f9f9f9;
+
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.custom-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.custom-nav ul a{
+    color: #3395da;
+    margin-left: 30px;
+    
+}
+.pic1{
+    background-image: url("https://bostonglobe-prod.cdn.arcpublishing.com/resizer/-GZVD7dd8-bAA0HIgdiO9_Mxw4M=/1440x0/arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/UFRDCMVRMUI6THDJBFNCFFY4OY.jpg");
+    background-size: cover;
+    height: 570px;
+}
+.col1{
+    align-items: center;
+}
+
+.card-body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card-title h3{
+    margin-bottom: 40px;
+}
+.card-text p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.custom-button{
+    background-color:rgb(224, 71, 97);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* content section */
+.testimonial-card {
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.537);
+    padding-top: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.testimonial-card p {
+    font-size: 20px;
+    color: #555;
+}
+
+.testimonial-card h5 {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.testimonial-card h6 {
+    font-size: 14px;
+    color: #777;
+}
+    /* Fixed button container */
+    .fixed-buttons {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+
+    /* Individual buttons */
+    .fixed-buttons .btn {
+        display: block;
+        margin-bottom: 10px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 50px;
+        font-size: 22px;
+        color: white;
+        background-color: #28a745;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .fixed-buttons .btn:hover {
+        background-color: #218838;
+        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .fixed-buttons .btn i {
+        vertical-align: middle;
+        /* align-items: center; */
+        margin-bottom: 20px;
+    }
+
+    /* Share button specific styling */
+    .fixed-buttons .share-btn {
+        background-color: #17a2b8;
+    }
+
+    .fixed-buttons .share-btn:hover {
+        background-color: #138496;
+    }
+    /* section 2 */
+    .image-container {
+        position: relative;
+        text-align: center;
+        color: white;
+        justify-content: center;
+    }
+
+    .image-container img {
+        height: 400px;
+        object-fit:cover;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .centered-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.281);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        border-radius: 10px;
+    }
+
+    .image-container:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        transition: bottom 0.5s ease;
+        text-align: center;
+    }
+
+    .sub-text {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .image-container:hover .text {
+        bottom: 20%;
+    }
+    /* latest blogs */
+    .blog-section {
+        text-align: center;
+        padding: 50px 0;
+    }
+    .blog-title {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .blog-title::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: #00a1f1;
+        margin: 10px auto;
+        margin-bottom: 30px;
+    }
+    .blog-card {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .blog-card img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .more-button {
+        background-color: #ff66a3;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        border-radius: 50px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: background-color 0.3s ease;
+    }
+    .more-button:hover {
+        background-color: #e05592;
+    }
+    /* destination */
+    .destination-section {
+        text-align: center;
+        padding: 50px 0;
+    }
+    .destination-title {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .destination-title::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: #00a1f1;
+        margin: 10px auto;
+    }
+    .destination-card {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        transition: transform 0.3s ease;
+    }
+    .destination-card img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .destination-card:hover img {
+        transform: scale(1.1);
+        opacity: 0.6;
+    }
+    .destination-card .card-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: transform 0.3s ease;
+    }
+    .destination-card:hover .card-text {
+        transform: translate(-50%, -40%);
+        color: #333;
+    }
+
+    .logo-section {
+        text-align: center;
+        padding: 50px 0;
+    }
+    .logo-section img {
+        width: 100%;
+       
+        
+    }
